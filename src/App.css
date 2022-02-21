@@ -1,38 +1,510 @@
-.App {
-  text-align: center;
+/* //Logo */
+
+.Logos {
+  margin-top: 2pc;
+  width: 20pc;
+  margin-left: 29pc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.NavB {
+  margin-left: 40pc;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+}
+.nLoginB {
+  color: brown;
+  margin-left: 35pc;
+}
+.nSignB {
+  color: green;
+}
+.logoub {
+  color: red !important;
+  margin-left: 40pc;
 }
 
-.App-link {
-  color: #61dafb;
+/* LoginContainer + SignupContainner */
+.LoginDiv,
+.SignupDiv {
+  margin-left: 30pc;
+  margin-top: -0.5pc;
+  border-radius: 1pc;
+  border: 2px solid green;
+  width: 18pc;
+  height: 29pc;
+}
+/* Notes Form */
+.col-6 {
+  margin-top: 1.5pc;
+  margin-left: 1pc;
+}
+.col-5 {
+  margin-top: 1.5pc;
+  margin-left: 20pc;
+}
+.titlecss,
+.tagcss {
+  width: 23pc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.descss {
+  width: 23pc;
+  height: 5pc;
+}
+
+.AddB {
+  width: 23pc;
+  font-weight: bold;
+}
+.Abd {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#userna {
+  margin-left: 5pc;
+}
+.bdg {
+  position: relative;
+  color: blue;
+  left: 10pc;
+  bottom: 2pc;
+}
+.Abi {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  position: absolute;
+  right: 5pc;
+  top: 5pc;
+}
+
+.Abp {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2pc;
+  margin-top: 1pc;
+}
+#Abh {
+  margin-left: 5pc;
+  width: 12pc;
+  height: 2.4pc;
+  border-radius: 5px;
+  color: violet;
+  font-weight: bold;
+  margin-top: 1pc;
+}
+.Abic {
+  display: flex;
+  flex-wrap: wrap;
+}
+#p1,
+#p2,
+#p3,
+#p4 {
+  margin-top: 0.5pc;
+  margin-left: 1pc;
+  font-size: 14px;
+  color: sienna;
+}
+.Abde {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid rgb(64, 65, 64);
+  border-radius: 0.5pc;
+  width: 50pc;
+  height: 6pc;
+  margin-top: 0.5pc;
+  margin-left: 2pc;
+  border-bottom: none;
+}
+
+#Abch {
+  width: 12pc;
+  margin-left: 5pc;
+  margin-top: 5pc;
+  color: violet;
+  font-weight: bold;
+}
+#Di {
+  border-radius: 50pc;
+  width: 6pc;
+  position: absolute;
+  left: 24pc;
+  top: 22pc;
+  border: 2px solid blue;
+}
+#rp {
+  position: absolute;
+  left: 40pc;
+  top: 27pc;
+  color: peru;
+}
+#mp {
+  position: absolute;
+  top: 28pc;
+  left: 21pc;
+  color: peru;
+}
+#np {
+  margin-left: 3pc;
+  margin-top: 1pc;
+
+  color: peru;
+}
+
+#Abin {
+  margin-left: 7pc;
+  font-size: 1.5pc;
+  margin-top: 1pc;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rebeccapurple;
+}
+#Afb {
+  font-size: 2pc;
+  margin-top: 1pc;
+  margin-left: 23pc;
+}
+#Ald {
+  font-size: 2pc;
+  margin-top: 1pc;
+}
+.Abu {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid green;
+  width: 50pc;
+  margin-left: 2pc;
+  height: 7pc;
+  border-top: 1px solid cadetblue;
+  border-radius: 0.5pc;
+}
+#Abul {
+  margin-left: 22pc;
+  margin-top: 1pc;
+  color: violet;
+  font-weight: bold;
+}
+.uname {
+  position: absolute;
+  left: 63pc;
+  top: 1.1pc;
+  color: brown;
+  font-size: 1pc;
+}
+
+@media (min-width:480px) and (max-width: 627px) {
+  .LoginDiv,
+  .SignupDiv {
+    margin-left: 2.4pc;
+    margin-top: 0.5pc;
   }
-  to {
-    transform: rotate(360deg);
+  .Logos {
+    margin-left: 0.5pc;
+  }
+
+  .Navb {
+    margin-left: 2pc;
+  }
+
+  .nLoginB {
+    margin-left: 0pc;
+  }
+  #nHmAb {
+    margin-left: 3pc;
+  }
+  .NavBd {
+    margin-left: 4pc;
+  }
+  .col-5 {
+    margin-left: 1.6pc;
+  }
+  .col-6 {
+    margin-left: 1.2pc;
+  }
+
+  .titlecss,
+  .tagcss,
+  .descss {
+    width: 18pc;
+  }
+  .AddB {
+    width: 18pc;
+  }
+  .text-muted {
+    width: 20pc;
+    display: inline-flex;
+  }
+  .logoub {
+    margin-left: 6pc;
+  }
+  #userna {
+    margin-left: 2pc;
+  }
+  .bdg {
+    left: 18pc;
+  }
+  .Abic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 19.3pc;
+    margin-top: -3pc;
+    margin-left: 1pc !important ;
+   
+  }
+  .Abi {
+    display: flex;
+    flex-wrap: wrap;
+    left: 0pc;
+    margin-top: 26pc;
+    margin-left: 3pc;
+    width: 20pc;
+  }
+  .Abp {
+    width: 90%;
+    margin-left: 1pc;
+  }
+  #Abh {
+    width: 12pc;
+    height: 3pc;
+    position: absolute;
+    top: 6c;
+  }
+  #p1 {
+    margin-top: 2pc;
+  }
+
+  #Di {
+    border-radius: 50pc;
+    width: 6pc;
+    position: absolute;
+    left: 17pc;
+    top: 70.4pc !important;
+    border: 2px solid blue;
+  }
+  #Abch {
+    width: 12pc;
+    margin-left: 5pc;
+    margin-top: 46pc;
+    font-weight: bold;
+  }
+  .Abde {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20pc;
+    height: 9pc;
+    margin-top: 1pc;
+    margin-left: 5pc ;
+  }
+
+  #Abin {
+    margin-left: 5.1pc;
+    font-size: 1.9pc;
+    font-weight: bold;
+  }
+  #home {
+    margin-left: -3pc;
+  }
+  #mp {
+    position: absolute;
+    top: 77.8pc !important;
+    left: 6.6pc;
+  }
+  #rp {
+    left: 7pc;
+    top: 76.3pc  ;
+  }
+  #np {
+    margin-left: 1.5pc;
+    margin-top: 2pc;
+  }
+  .Abu {
+    border: solid green;
+    width: 20pc;
+    margin-top: 0pc;
+    margin-left: 5pc !important;
+    height: 6pc;
+    border-top: 1px solid cadetblue;
+    border-radius: 0.5pc;
+  }
+  #Abul {
+    margin-left: 6.7pc;
+  }
+  #Afb {
+    margin-left: 8pc;
+  }
+  .uname {
+   
+    margin-left: -50pc !important;
+    color: brown;
+    font-size: 1pc;
+    top: 3.8pc;
+  }
+
+ 
+  #deli {
+    margin-left: auto;
+  }
+}  
+
+
+
+/* Grab All 720 Resolution Screen */
+ 
+@media (max-width:775px){
+  .LoginDiv,
+  .SignupDiv {
+    margin-left: 2.4pc;
+    margin-top: 0.5pc;
+  }
+  .Logos {
+    margin-left: 0.5pc;
+  }
+
+  .Navb {
+    margin-left: 2pc;
+  }
+
+  .nLoginB {
+    margin-left: 0pc;
+  }
+  #nHmAb {
+    margin-left: 3pc;
+  }
+  .NavBd {
+    margin-left: 4pc;
+  }
+  .col-5 {
+    margin-left: 1.6pc;
+  }
+  .col-6 {
+    margin-left: 1.2pc;
+  }
+
+  .titlecss,
+  .tagcss,
+  .descss {
+    width: 18pc;
+  }
+  .AddB {
+    width: 18pc;
+  }
+  .text-muted {
+    width: 20pc;
+    display: inline-flex;
+  }
+  .logoub {
+    margin-left: 6pc;
+  }
+  #userna {
+    margin-left: 2pc;
+  }
+  .bdg {
+    left: 12pc;
+  }
+  .Abic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 19.3pc;
+    margin-top: -3pc;
+    margin-left: 1pc !important ;
+   
+  }
+  .Abi {
+    display: flex;
+    flex-wrap: wrap;
+    left: 0pc;
+    margin-top: 22pc;
+    margin-left: 10pc;
+    width: 20pc;
+  }
+  .Abp {
+    width: 90%;
+    margin-left: 1pc;
+  }
+  #Abh {
+    width: 12pc;
+    height: 3pc;
+    position: absolute;
+    top: 6c;
+  }
+  #p1 {
+    margin-top: 2pc;
+  }
+
+  #Di {
+    border-radius: 50pc;
+    width: 6pc;
+    position: absolute;
+    left: 24pc;
+    top: 67.4pc !important;
+    border: 2px solid blue;
+  }
+  #Abch {
+    width: 12pc;
+    margin-left: 12pc;
+    margin-top: 46pc;
+    font-weight: bold;
+  }
+  .Abde {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20pc;
+    height: 9pc;
+    margin-top: 1pc;
+    margin-left: 11.3pc ;
+  }
+
+  #Abin {
+    margin-left: 5.1pc;
+    font-size: 1.9pc;
+    font-weight: bold;
+  }
+  #home {
+    margin-left: -3pc;
+  }
+  #mp {
+    position: absolute;
+    top: 74.3pc !important;
+    left: 12.6pc;
+  }
+  #rp {
+    left: 13pc;
+    top: 73.3pc  ;
+  }
+  #np {
+    margin-left: 1.5pc;
+    margin-top: 2pc;
+  }
+  .Abu {
+    border: solid green;
+    width: 20pc;
+    margin-top: 0pc;
+    margin-left: 11.3pc !important;
+    height: 6pc;
+    border-top: 1px solid cadetblue;
+    border-radius: 0.5pc;
+  }
+  #Abul {
+    margin-left: 6.7pc;
+  }
+  #Afb {
+    margin-left: 8pc;
+  }
+  .uname {
+    
+    margin-left: -44pc !important;
+    color: brown;
+    font-size: 1pc;
+    top: 3.7pc;
+  }
+
+  #LoC {
+    margin-left: auto !important;
+  }
+  #deli {
+    margin-left: 5pc;
   }
 }
+  
